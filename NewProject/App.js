@@ -29,7 +29,10 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import LogIn_Screen from './Ecran_Login.js';
+
+import Producator from './UI/Producator.js'
+import Consumator from './UI/Consumator.js'
+import LogIn_Screen from './UI/Ecran_Login.js';
 
 //------------------------------------------------------
 
@@ -50,7 +53,7 @@ const App: () => Node = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return LogIn_Screen() ;
+  return LogIn_Screen();
 };
 
 const styles = StyleSheet.create({
