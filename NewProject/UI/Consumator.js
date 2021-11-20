@@ -25,17 +25,28 @@ const styles = StyleSheet.create({
     },
     background :{
         backgroundColor: '#FFFAE5',
-        flex: 1
+        flex: 1        
+    },
+    row: {
+        flexDirection: "row"
     }
 })
 
 const Consumator = () => {
     return (
-    <View>
-        <Text style={styles.center}> HI !</Text>
-        <View style={{ flex: 1, backgroundColor: 'powderblue' }} />
-        <View style={{ flex: 2, backgroundColor: 'skyblue' }} />
-        <View style={{ flex: 3, backgroundColor: 'steelblue' }} />
+    <View style={styles.background}>
+        <View style={styles.row}>
+            <Image source={require('./images/fructe.jpg')}/>
+            <Image source={require('./images/legume.jpg')}/>
+        </View>
+        <View style={styles.row}>
+            <Image source={require('./images/produse_lactate.jpg')}/>
+            <Image source={require('./images/produse_de_panificatie.jpg')}/>
+        </View>
+        <View style={styles.row}>
+            <Image source={require('./images/produse_apicole.jpg')}/>
+            <Image source={require('./images/dulceturi_si_siropuri.jpg')}/>
+        </View>
     </View>
     );
 };

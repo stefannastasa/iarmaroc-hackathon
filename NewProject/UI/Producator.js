@@ -23,15 +23,16 @@ const styles = StyleSheet.create({
     center: {
       alignItems: 'center'
     },
-    hell0 :{
-        color : Colors.red
+    background :{
+        backgroundColor: '#FFFAE5',
+        flex: 1
     }
 })
 
 const Producator = () => {
     return (
-    <View style={styles.center}>
-      <Text> Hello! </Text>
+    <View style={styles.background}>
+      <Text style={styles.hell0}> Hello! </Text>
     </View>
     );
 };
