@@ -9,8 +9,7 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
-import LoginScreen from './UI/Ecran_Login'
+//import type {Node} from 'react';
 
 import {
   SafeAreaView,
@@ -32,53 +31,7 @@ import {
 
 import Producator from './UI/Producator.js'
 import Consumator from './UI/Consumator.js'
-import LogIn_Screen from './UI/Ecran_Login.js';
-
-//------------------------------------------------------
-
-/*
-const Section = ({children, title}): Node => {
-  
-  const isDarkMode = useColorScheme() === 'dark';
-  return ( 
-    <View style={styles.sectionContainer}>
-    </View>
-  );
-};
-
-const App: () => Node = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return LogIn_Screen();
-};
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
-
-
-
-*/
-//------------------------------------
+import LogIn_Screen from './UI/Ecran_Login';
 
 
 export default function App() {

@@ -10,10 +10,6 @@ import {
     Button
 } from "react-native"
 
-//const LogIn_Screen = {}
-
-
-
 const LogIn_Screen = () => {
 
     const [value, onChangeText] = React.useState('Useless Placeholder');
@@ -36,7 +32,6 @@ const LogIn_Screen = () => {
                 </Text>
                 <TextInput 
                     placeholder='Username'
-                    //onChangeText={(val)}
                     onChangeText={text => onChangeText(text)}
                     value={value}
                 />
@@ -44,7 +39,7 @@ const LogIn_Screen = () => {
                 <TextInput placeholder='Password' />
                 <View style={{margin:7}} />
                 <Button 
-                    //onPress={this.props.onLoginPress}
+                    onPress={this.props.onLoginPress}
                     title="Submit"
                     color="#579A62"
                 />
@@ -52,8 +47,6 @@ const LogIn_Screen = () => {
         </SafeAreaView>
     );
 }
-
-//console.log("HERE" + val)
 
 const styles = StyleSheet.create({
     container: {
