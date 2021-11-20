@@ -23,15 +23,16 @@ const styles = StyleSheet.create({
     center: {
       alignItems: 'center'
     },
-    hell0 :{
-        color : Colors.red
+    background :{
+        color : '#FFFAE5',
+        
     }
 })
 
 const Consumator = () => {
     return (
-    <View style={styles.center}>
-      <Text> Hello! </Text>
+    <View style = {styles.background} >
+        <Text style={center}> HI !</Text>
     </View>
     );
 };
