@@ -72,33 +72,7 @@ const App: () => Node = () => {
   };
 
   return ( 
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          {/*}
-          <Section title="Step One">
-            hi <Text style={styles.highlight}>App.js</Text> dajsdhawdhahdgshadas
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            MAKE A CHANGE
-          </Section>
-        */}         
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <Text>Text</Text>
   );
 };
 
