@@ -10,6 +10,7 @@
 
 import React from 'react';
 import type {Node} from 'react';
+import LoginScreen from './UI/Ecran_Login'
 
 import {
   SafeAreaView,
@@ -35,7 +36,7 @@ import LogIn_Screen from './UI/Ecran_Login.js';
 
 //------------------------------------------------------
 
-
+/*
 const Section = ({children, title}): Node => {
   
   const isDarkMode = useColorScheme() === 'dark';
@@ -75,6 +76,15 @@ const styles = StyleSheet.create({
 });
 
 
+
+*/
 //------------------------------------
 
-export default App;
+
+export default function App() {
+    return (
+      <LogIn_Screen/>
+    )
+}
+
+//export default App;
