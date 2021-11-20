@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         paddingLeft: 30
     }
 })
-
+//
 const Consumator = () => {
     return (
     <View style={styles.background}>
