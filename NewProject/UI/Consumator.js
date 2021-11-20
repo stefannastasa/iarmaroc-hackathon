@@ -40,7 +40,9 @@ const styles = StyleSheet.create({
         paddingLeft: 20
     },
     text: {
-        paddingLeft: 30
+        paddingLeft: 30,
+        paddingBottom: 10,
+        fontSize: 27
     }
 })
 //
