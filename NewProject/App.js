@@ -10,6 +10,7 @@
 
 import React from 'react';
 import type {Node} from 'react';
+
 import {
   SafeAreaView,
   ScrollView,
@@ -28,10 +29,15 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+//------------------------------------------------------
+
+
 const Section = ({children, title}): Node => {
+  
   const isDarkMode = useColorScheme() === 'dark';
-  return (
+  return ( /*thsrutfhrusihtgf */
     <View style={styles.sectionContainer}>
+      {/*fgjdigifgj 
       <Text
         style={[
           styles.sectionTitle,
@@ -50,10 +56,14 @@ const Section = ({children, title}): Node => {
         ]}>
         {children}
       </Text>
+      */}
     </View>
   );
 };
-
+/*
+styytryt
+ghjkhk
+*/
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -61,7 +71,7 @@ const App: () => Node = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return (
+  return ( 
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <ScrollView
@@ -72,6 +82,7 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
+          {/*}
           <Section title="Step One">
             hi <Text style={styles.highlight}>App.js</Text> dajsdhawdhahdgshadas
           </Section>
@@ -84,6 +95,7 @@ const App: () => Node = () => {
           <Section title="Learn More">
             MAKE A CHANGE
           </Section>
+        */}
           <LearnMoreLinks />
         </View>
       </ScrollView>
@@ -109,5 +121,8 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
 });
+
+
+//------------------------------------
 
 export default App;
