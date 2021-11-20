@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     img: {
         height: 150,
         width: 150,
-        paddingLeft: 10
+        paddingLeft: 20
     },
     text: {
         paddingLeft: 30
