@@ -10,7 +10,6 @@
 
 import React from 'react';
 import type {Node} from 'react';
-import LogIN_Screen from "./Ecran_Login.js"
 
 import {
   SafeAreaView,
