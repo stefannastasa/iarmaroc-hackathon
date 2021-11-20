@@ -17,19 +17,17 @@ export default function App() {
         </View>
     );
 }
-
-
-
+/*
 const style = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColour: "dodgerblue",
         alignItems: "center",
-        justifyContent: "center",
-    },
-});
+        justifyContent:
+    }
+})
 
-
+*/
 
 
 export default LogIn_Screen
