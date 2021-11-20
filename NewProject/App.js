@@ -10,7 +10,6 @@
 
 import React from 'react';
 import type {Node} from 'react';
-import LogIN_Screen from "./Ecran_LogIn.js"
 
 import {
   SafeAreaView,
@@ -29,7 +28,9 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import LogIn_Screen from './Ecran_LogIn.js';
+import LogIn_Screen from './UI/Ecran_Login.js';
+import Producator from './UI/Producator.js'
+import Consumator from './UI/Consumator.js'
 
 //------------------------------------------------------
 
@@ -49,7 +50,7 @@ const App: () => Node = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return LogIn_Screen ;
+  return Producator;
 };
 
 const styles = StyleSheet.create({
