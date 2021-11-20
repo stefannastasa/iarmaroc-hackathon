@@ -13,6 +13,12 @@ import {
 const LogIn_Screen = () => {
 
     const [value, onChangeText] = React.useState('Useless Placeholder');
+    const [submitted, SetSubmitted] = React.useState(false);
+
+    const onPressHandler = () => {
+        SetSubmitted(!submitted)
+
+    }
 
     return(
         <SafeAreaView style={styles.container}>
@@ -35,14 +41,25 @@ const LogIn_Screen = () => {
                     onChangeText={text => onChangeText(text)}
                     value={value}
                 />
-                <Text>My username is {value}</Text>
-                <TextInput placeholder='Password' />
+                
+                <TextInput 
+                    placeholder='Password' />
                 <View style={{margin:7}} />
                 <Button 
-                    onPress={this.props.onLoginPress}
+                    onPress={onPressHandler}
                     title="Submit"
                     color="#579A62"
                 />
+                {submitted?
+                    <Text>My username is {value}</Text>
+                    
+                    
+
+
+                   
+                    :
+                    null
+                }
             </View>
         </SafeAreaView>
     );
