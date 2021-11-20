@@ -95,8 +95,7 @@ const App: () => Node = () => {
           <Section title="Learn More">
             MAKE A CHANGE
           </Section>
-        */}
-          <LearnMoreLinks />
+        */}         
         </View>
       </ScrollView>
     </SafeAreaView>
