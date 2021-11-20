@@ -82,7 +82,7 @@ const App: () => Node = () => {
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
-            ADNWIUDHYWHDYADHYUHDYADWYUGDYWDW
+            MAKE A CHANGE
           </Section>
           <LearnMoreLinks />
         </View>
