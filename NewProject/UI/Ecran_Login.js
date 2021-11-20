@@ -2,17 +2,14 @@ import React from "react"
 import {StyleSheet, Text, Image, View, SafeAreaView} from "react-native"
 
 
-
-
 //const LogIn_Screen = {}
 
 const LogIn_Screen = () => {
     return(
         <SafeAreaView style={styles.container}>
-            <Text>Hello, this is the first page of the app</Text>
-            <Image source={require("./iarmarocLogo.png")}/>
+            <Image source={require("./images/iarmarocLogo.png")}/>
+            <Text>Log in</Text>
         </SafeAreaView>
-
     );
 }
 
@@ -34,7 +31,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
        //backgroundColour: "red",
-        //alignItems: "center",
+        alignItems: "center",
         //justifyContent: "center",
         padding: 20,
     }
