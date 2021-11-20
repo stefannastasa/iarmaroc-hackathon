@@ -1,5 +1,12 @@
 
 import React from 'react';
+import {
+    Colors,
+    DebugInstructions,
+    Header,
+    LearnMoreLinks,
+    ReloadInstructions,
+  } from 'react-native/Libraries/NewAppScreen';
 
 import {
     SafeAreaView,
@@ -15,10 +22,13 @@ import {
 const styles = StyleSheet.create({
     center: {
       alignItems: 'center'
+    },
+    hell0 :{
+        color : Colors.red
     }
 })
 
-const Producator = {
+const Producator = () => {
     return (
     <View style={styles.center}>
       <Text> Hello! </Text>
