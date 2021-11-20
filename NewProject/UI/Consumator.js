@@ -24,15 +24,18 @@ const styles = StyleSheet.create({
       alignItems: 'center'
     },
     background :{
-        color : '#FFFAE5',
-        
+        backgroundColor: '#FFFAE5',
+        flex: 1
     }
 })
 
 const Consumator = () => {
     return (
-    <View style = {styles.background} >
-        <Text style={center}> HI !</Text>
+    <View>
+        <Text style={styles.center}> HI !</Text>
+        <View style={{ flex: 1, backgroundColor: 'powderblue' }} />
+        <View style={{ flex: 2, backgroundColor: 'skyblue' }} />
+        <View style={{ flex: 3, backgroundColor: 'steelblue' }} />
     </View>
     );
 };
