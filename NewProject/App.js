@@ -35,35 +35,11 @@ import {
 const Section = ({children, title}): Node => {
   
   const isDarkMode = useColorScheme() === 'dark';
-  return ( /*thsrutfhrusihtgf */
+  return ( 
     <View style={styles.sectionContainer}>
-      {/*fgjdigifgj 
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-      */}
     </View>
   );
 };
-/*
-styytryt
-ghjkhk
-*/
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -82,23 +58,6 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          {/*}
-          <Section title="Step One">
-            hi <Text style={styles.highlight}>App.js</Text> dajsdhawdhahdgshadas
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            MAKE A CHANGE
-          </Section>
-        */}
-        
-         
-        
         </View>
       </ScrollView>
     </SafeAreaView>
