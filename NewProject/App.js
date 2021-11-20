@@ -10,7 +10,7 @@
 
 import React from 'react';
 import type {Node} from 'react';
-import LogIN_Screen from "./Ecran_LogIn.js"
+import LogIN_Screen from "./Ecran_Login.js"
 
 import {
   SafeAreaView,
@@ -29,7 +29,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import LogIn_Screen from './Ecran_LogIn.js';
+import LogIn_Screen from './Ecran_Login.js';
 
 //------------------------------------------------------
 
@@ -42,6 +42,7 @@ const Section = ({children, title}): Node => {
     </View>
   );
 };
+
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -49,7 +50,7 @@ const App: () => Node = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return LogIn_Screen ;
+  return LogIn_Screen() ;
 };
 
 const styles = StyleSheet.create({
