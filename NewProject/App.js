@@ -35,35 +35,11 @@ import {
 const Section = ({children, title}): Node => {
   
   const isDarkMode = useColorScheme() === 'dark';
-  return ( /*thsrutfhrusihtgf */
+  return ( 
     <View style={styles.sectionContainer}>
-      {/*fgjdigifgj 
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-      */}
     </View>
   );
 };
-/*
-styytryt
-ghjkhk
-*/
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
