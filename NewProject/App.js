@@ -30,10 +30,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import Producator from './UI/Producator.js';
-import Consumator from './UI/Consumator.js';
-import LogIn_Screen from './UI/Ecran_Login.js';
-
 /*
 
 export default function App() {
@@ -70,6 +66,12 @@ export default function App() {
 
 
 */
+
+import Producator from './UI/Producator.js';
+import Consumator from './UI/Consumator.js';
+import LogIn_Screen from './UI/Ecran_Login.js';
+import Cos from './UI/Cos.js';
+import Dulceturi from './UI/Dulceturi.js';
 
 export default function App() {
     return (
