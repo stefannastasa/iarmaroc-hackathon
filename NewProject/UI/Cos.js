@@ -18,13 +18,12 @@ import {
     Image,
     Button
 } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
 
-const Cos = ({navigation}) => {
+const Cos = () => {
     return (
         <View>
             <Text> HI! </Text>
-            <Button onPress={() => navigation.navigate('Login_Screen')} title="To LogIn">
+            <Button >
 
             </Button>
         </View>

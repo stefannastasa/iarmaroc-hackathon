@@ -7,7 +7,7 @@ import {
     LearnMoreLinks,
     ReloadInstructions,
   } from 'react-native/Libraries/NewAppScreen';
-import { NavigationContainer } from '@react-navigation/native';
+
 
 import {
     SafeAreaView,
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     }
 })
 //
-const Consumator = ({navigation}) => {
+const Consumator = () => {
     return (
     <View style={styles.background}>
         <Text style={styles.center}>
@@ -105,8 +105,7 @@ const Consumator = ({navigation}) => {
         </View>
         <View style={styles.button}>
             <Button title="Cos de cumparaturi"
-                    color="#579A62"
-                    onPress={() => navigation.navigate('Cos')}>
+                    color="#579A62">
             </Button>
         </View>
     </View>
