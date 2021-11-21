@@ -34,13 +34,20 @@ import Producator from './UI/Producator.js'
 import Consumator from './UI/Consumator.js'
 import LogIn_Screen from './UI/Ecran_Login.js';
 
+
 /*
+
 export default function App() {
 
   const [submitted, SetSubmitted] = React.useState(false);
 
   const onPressHandler = () => {
-    SetSubmitted(!submitted)
+    SetSubmitted(!submitted),
+    <View>
+        <Text>------------</Text>
+        <LogIn_Screen/>
+    </View>
+    
     
   }
 
@@ -61,6 +68,8 @@ export default function App() {
       </View>
     )
 }
+
+
 */
 
 export default function App() {
@@ -69,5 +78,9 @@ export default function App() {
     )
 }
 
-//<LogIn_Screen/>
+
+
+//export default App;
+
+
 //export default App;
