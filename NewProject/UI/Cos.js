@@ -18,11 +18,17 @@ import {
     Image,
     Button
 } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 
-const Cos = () => {
+const Cos = ({navigation}) => {
     return (
-        <Text> HI! </Text>
-    )
+        <View>
+            <Text> HI! </Text>
+            <Button onPress={() => navigation.navigate('Login_Screen')} title="To LogIn">
+
+            </Button>
+        </View>
+    );
 }
 
 export default Cos
