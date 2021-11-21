@@ -7,7 +7,8 @@ import {
     View, 
     SafeAreaView,
     TextInput,
-    Button
+    Button,
+    Alert
 } from "react-native"
 
 const LogIn_Screen = () => {
@@ -19,6 +20,8 @@ const LogIn_Screen = () => {
         SetSubmitted(!submitted)
 
     }
+
+    const login = () => Alert.alert("Login")
 
     return(
         <SafeAreaView style={styles.container}>
@@ -47,6 +50,7 @@ const LogIn_Screen = () => {
                 <View style={{margin:7}} />
                 <Button 
                     onPress={onPressHandler}
+                    onPress={login}
                     title="Submit"
                     color="#579A62"
                 />
@@ -54,9 +58,6 @@ const LogIn_Screen = () => {
                     <Text>My username is {value}</Text>
                     
                     
-
-
-                   
                     :
                     null
                 }
