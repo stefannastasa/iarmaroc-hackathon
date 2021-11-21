@@ -30,42 +30,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-/*
-
-export default function App() {
-
-  const [submitted, SetSubmitted] = React.useState(false);
-
-  const onPressHandler = () => {
-    SetSubmitted(!submitted),
-    <View>
-        <Text>------------</Text>
-        <LogIn_Screen/>
-    </View>
-    
-    
-  }
-
-    return (
-      <View>
-        <Button 
-            onPress={onPressHandler}
-            title="Submit"
-            color="#579A62"
-        />
-        {submitted?
-            <Text>My username is dumb</Text>
-            
-            
-            :
-            null
-        }
-      </View>
-    )
-}
-
-
-*/
 
 import Producator from './UI/Producator.js';
 import Consumator from './UI/Consumator.js';
@@ -77,6 +41,7 @@ import Lactate from './UI/Lactate.js';
 import Legume from './UI/Legume.js';
 import Patiserie from './UI/Patiserie.js';
 import Apictultura from './UI/Apicultura.js';
+import ConfirmareComanda from './UI/confirmareComanda.js'
 
 export default function App() {
     return (
