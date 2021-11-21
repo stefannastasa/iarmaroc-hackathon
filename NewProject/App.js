@@ -30,8 +30,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import Producator from './UI/Producator.js'
-import Consumator from './UI/Consumator.js'
+import Producator from './UI/Producator.js';
+import Consumator from './UI/Consumator.js';
 import LogIn_Screen from './UI/Ecran_Login.js';
 
 
@@ -77,10 +77,3 @@ export default function App() {
       <LogIn_Screen/>
     )
 }
-
-
-
-//export default App;
-
-
-//export default App;
