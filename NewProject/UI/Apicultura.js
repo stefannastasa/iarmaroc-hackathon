@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
         fontFamily: 'Rasa',
         position: 'absolute',
         top: 70,
-        left: 45,
+        left: 80,
         textAlign: 'center'
     },
     header:{
@@ -87,28 +87,29 @@ const styles = StyleSheet.create({
     }
 })
 
-const Dulceturi = () => {
+
+const Apictultura = () => {
     return (
         <View style={styles.background}>
             <View>
-                <Image style={styles.first_img} source={require('./images/dulceturi_si_siropuri.jpg')}/>
+                <Image style={styles.first_img} source={require('./images/produse_apicole.jpg')}/>
                 <Text style={styles.fisrt_text}>
-                    DULCETURI ȘI SIROPURI
+                    PRODUSE APICOLE
                 </Text>
             </View>
             
             <View style={styles.row}>
                 <Image 
                     style={styles.img} 
-                    source={require('./images/dulceata_zmeura.jpg')}/>
+                    source={require('./images/miere_salcam.jpg')}/>
                 <View style={styles.column}>
                     <Text style={styles.header}>
-                        Dulceata de zmeura
+                        Miere salcâm   
                     </Text>
 
-                    <Text style={styles.text}>- 20 lei/buc</Text>
-                    <Text style={styles.text}>- Chiteni, jud Cluj</Text>
-                    <Text style={styles.text}>- Varga Maria</Text>
+                    <Text style={styles.text}>- 15 lei/buc</Text>
+                    <Text style={styles.text}>- Iclod, jud Cluj</Text>
+                    <Text style={styles.text}>- Pascal Iosif</Text>
 
                 </View>
             </View>
@@ -116,15 +117,15 @@ const Dulceturi = () => {
             <View style={styles.row}>
                 <Image 
                     style={styles.img} 
-                    source={require('./images/dulceata_gutui.jpg')}/>
+                    source={require('./images/1-Miere-poliflora-950-romaneasca.jpg')}/>
                 <View style={styles.column}>
                     <Text style={styles.header}>
-                        Dulceata Gutui
+                        Miere polifloră   
                     </Text>
 
-                    <Text style={styles.text}>- 19 lei/buc</Text>
-                    <Text style={styles.text}>- Sânnicoară, jud Cluj</Text>
-                    <Text style={styles.text}>- Ionică Anamaria</Text>
+                    <Text style={styles.text}>- 14 lei/buc</Text>
+                    <Text style={styles.text}>- Prisaca, jud Cluj</Text>
+                    <Text style={styles.text}>- Dumitru Emanuel</Text>
 
                 </View>
             </View>
@@ -132,15 +133,15 @@ const Dulceturi = () => {
             <View style={styles.row}>
                 <Image 
                     style={styles.img} 
-                    source={require('./images/sirop_muguri_de_pin.jpg')}/>
+                    source={require('./images/polen_crud_granule.jpg')}/>
                 <View style={styles.column}>
                     <Text style={styles.header}>
-                        Sirop din muguri de pin
+                        Polen crud granule
                     </Text>
 
                     <Text style={styles.text}>- 14 lei/100g</Text>
-                    <Text style={styles.text}>- Mărișel, jud Cluj</Text>
-                    <Text style={styles.text}>- Mateș Cristian</Text>
+                    <Text style={styles.text}>- Prisaca, jud Cluj</Text>
+                    <Text style={styles.text}>- Dumitru Emanuel</Text>
 
                 </View>
             </View>
@@ -154,7 +155,7 @@ const Dulceturi = () => {
     )
 }
 
-export default Dulceturi
+export default Apictultura
 
 
 
